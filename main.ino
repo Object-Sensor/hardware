@@ -47,9 +47,6 @@ void loop()
 
 void sendCommand(String command, int maxTime, char expectedResult[])
 {
-    //  Serial.print("command: ");
-    //  Serial.print(command);
-    //  Serial.print(" ");
     while (countTimeCommand < maxTime)
     {
         ESPserial.println(command);         //at+cipsend
@@ -61,14 +58,6 @@ void sendCommand(String command, int maxTime, char expectedResult[])
         countTimeCommand++;
     }
 
-    if (found == true)
-    {
-        //    Serial.println("Success");
-    }
-    else
-    {
-        //    Serial.println("Fail");
-    }
     countTimeCommand = 0;
     found = false;
 }
