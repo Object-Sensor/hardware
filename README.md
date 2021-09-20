@@ -7,4 +7,4 @@
 
 This hardware component of the project was created by: Sara Habib (sarausama), Simon Bell (s26bell), and Daniel Croos (DanielCroos) 
 ## Designed the following circuit
-![alt text](https://github.com/Object-Sensor/hardware/blob/master/Circuit.png)
+![alt_text](https://github.com/Object-Sensor/hardware/blob/master/Circuit-2.png)
